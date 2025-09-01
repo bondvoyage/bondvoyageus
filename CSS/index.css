@@ -38,7 +38,7 @@ nav a:hover {
   display: block;
 }
 
-.dropdown-menu span:hover {
+.dropdown-menu a:hover {
   color: #cce3f3;
 }
 
