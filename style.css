@@ -1,0 +1,30 @@
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+nav a:hover {
+  color: #ffffff; 
+}
+
+.dropdown-menu {
+  display: none;
+  top: 100%;  
+  list-style: none;
+  min-width: 180px; 
+}
+
+.dropdown-menu li a:hover {
+  color: #ffff; 
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
