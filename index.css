@@ -30,7 +30,7 @@ nav a:hover {
   left: 0;
   min-width: 180px;
   flex-direction: column;
-  z-index: 1000;
+  /* z-index: 1000; */
 }
 
 .dropdown-menu li a {
