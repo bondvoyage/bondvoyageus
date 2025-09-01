@@ -23,7 +23,7 @@ nav a:hover {
   color: #cce3f3;
 }
 
-.dropdown-menu {
+.dropdown-menu span {
   display: none;
   position: absolute;
   top: 100%;
@@ -38,7 +38,7 @@ nav a:hover {
   display: block;
 }
 
-.dropdown-menu li a:hover {
+.dropdown-menu span:hover {
   color: #cce3f3;
 }
 
