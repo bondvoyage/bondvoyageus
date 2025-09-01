@@ -29,7 +29,6 @@ nav a:hover {
   top: 100%;
   left: 0;
   min-width: 180px;
-  background-color: #1e1e2f;
   flex-direction: column;
   z-index: 1000;
 }
