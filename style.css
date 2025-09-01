@@ -6,6 +6,12 @@ nav ul {
   color: #8fa8f8;   
 }
 
+nav ul, nav ul ul {
+  list-style: none; 
+  margin: 0;
+  padding: 0;
+}
+
 nav li {
   position: relative;    
 }
