@@ -36,6 +36,7 @@ nav a:hover {
 .dropdown-menu li a {
   padding: 12px 16px;
   display: block;
+  background: #ffff;
 }
 
 .dropdown-menu span:hover {
