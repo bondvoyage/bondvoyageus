@@ -79,6 +79,7 @@ nav a:hover {
   padding-bottom: 20px;
   padding-top: 20px;
   font-size: 15px;
+  color: #2B4DA6;
 }
 
 @media (max-width: 600px) {
