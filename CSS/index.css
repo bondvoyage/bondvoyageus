@@ -52,7 +52,7 @@ nav a:hover {
 .dropdown-menu li a {
   padding: 12px 16px;
   display: block;
-  background: #fff;  
+  background: #cad7ed;  
 }
 
 .dropdown-menu a:hover {
@@ -62,10 +62,12 @@ nav a:hover {
 .dropdown:hover .dropdown-menu {
   display: block;
 }
+
 .logo img {
   height: 40px;
   width: auto;
 }
+
 body {
   background-color: #cad7ed;
 }
