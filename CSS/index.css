@@ -20,7 +20,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #cce3f3;
+  color: #6182D4;
 }
 
 .dropdown-menu {
@@ -39,7 +39,7 @@ nav a:hover {
 }
 
 .dropdown-menu a:hover {
-  color: #cce3f3;
+  color: #6182D4;
 }
 
 .dropdown:hover .dropdown-menu {
