@@ -1,10 +1,21 @@
-nav ul,
+/* nav bar stuff */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end; 
+  color: #2B4DA6;
+}
+
+/* dropdown menus stay vertical */
 nav ul ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
-  color: #8fa8f8;
+  flex-direction: column; 
+  color: #2B4DA6;
 }
 
 nav li {
@@ -14,13 +25,13 @@ nav li {
 nav a {
   display: block;
   padding: 15px 20px;
-  color: #8fa8f8;
+  color: #2B4DA6;
   text-decoration: none;
   transition: background 0.3s, color 0.3s;
 }
 
 nav a:hover {
-  color: #cce3f3;
+  color: #6182D4;
 }
 
 .dropdown-menu {
@@ -30,19 +41,25 @@ nav a:hover {
   left: 0;
   min-width: 180px;
   flex-direction: column;
-  /* z-index: 1000; */
 }
 
 .dropdown-menu li a {
   padding: 12px 16px;
   display: block;
-  background: #ffff;
+  background: #fff;  
 }
 
-.dropdown-menu span:hover {
-  color: #cce3f3;
+.dropdown-menu a:hover {
+  color: #6182D4;
 }
 
 .dropdown:hover .dropdown-menu {
   display: block;
+}
+.logo img {
+  height: 40px;
+  width: auto;
+}
+body {
+  background-color: #cad7ed;
 }
