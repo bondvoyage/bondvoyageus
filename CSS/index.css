@@ -71,12 +71,8 @@ nav a:hover {
   width: auto;
 }
 
-hr {
-  border: none;
-  border-top: 2px solid #ffff;
-}
-
 .footer {
+  border-top: 2px solid #ffff;
   background-color: #a6bce0;
   padding-left: 20px;
   padding-right: 20px;
