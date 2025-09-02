@@ -5,6 +5,7 @@ nav {
   justify-content: space-between;
   border-bottom: 2px solid #ffff;
   background-color: #a6bce0;
+  width: 100%;  
 }
 
 nav ul {
