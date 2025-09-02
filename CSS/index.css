@@ -78,6 +78,8 @@ hr {
 
 .footer {
   background-color: #a6bce0;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 @media (max-width: 600px) {
