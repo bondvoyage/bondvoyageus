@@ -71,6 +71,11 @@ nav a:hover {
   width: auto;
 }
 
+hr {
+  border: none;
+  border-top: 2px solid #ffff;
+}
+
 @media (max-width: 600px) {
   nav {
     flex-direction: column;
