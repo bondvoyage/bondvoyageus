@@ -1,9 +1,20 @@
-nav ul,
+/* nav bar stuff */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end; 
+  color: #2B4DA6;
+}
+
+/* dropdown menus stay vertical */
 nav ul ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
+  flex-direction: column; 
   color: #2B4DA6;
 }
 
@@ -35,7 +46,7 @@ nav a:hover {
 .dropdown-menu li a {
   padding: 12px 16px;
   display: block;
-  background: #ffff;
+  background: #fff;  
 }
 
 .dropdown-menu a:hover {
@@ -44,4 +55,11 @@ nav a:hover {
 
 .dropdown:hover .dropdown-menu {
   display: block;
+}
+.logo img {
+  height: 40px;
+  width: auto;
+}
+body {
+  background-color: #cad7ed;
 }
