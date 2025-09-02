@@ -94,4 +94,5 @@ nav a:hover {
 body {
   background-color: #cad7ed;
   margin: 0;  
+  height: 100%; 
 }
