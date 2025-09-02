@@ -86,3 +86,9 @@ html, body {
 body {
   background-color: #cad7ed;
 }
+
+.content {
+  color: #2B4DA6;
+  padding-left: 20px;
+  padding-right: 20px;
+}
