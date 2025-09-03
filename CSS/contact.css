@@ -118,7 +118,6 @@ body {
   border-radius: 8px;
   cursor: pointer;
   display: block;  
-  margin: 10px auto;
 }
 
 .contact-form button:hover {
