@@ -1,6 +1,6 @@
 const client = contentful.createClient({
-  space: 'YOUR_SPACE_ID',
-  accessToken: 'YOUR_ACCESS_TOKEN'
+  space: 'wrr72jjvus6o',
+  accessToken: 'PmMbpzFsJtzPgmqkKg0au7UMhsyialtZxYulNwZXI74'
 });
 
 client.getEntries({
