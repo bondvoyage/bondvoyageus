@@ -1,6 +1,6 @@
 const client = contentful.createClient({
-  space: 'wrr72jjvus6o',
-  accessToken: 'PmMbpzFsJtzPgmqkKg0au7UMhsyialtZxYulNwZXI74'
+  space: process.env.CONTENTFUL_SPACE_ID,
+  accessToken: process.env.CONTENTFUL_CDA_TOKEN
 });
 
 const container = document.getElementById('articles');
